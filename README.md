@@ -1,7 +1,12 @@
 AWS VIRTUAL PRIVATE CLOUD (VPC) Setup - KCVPC
+
+
 OVERVIEW 
-This project Virtual Private Cloud (VPC) with both public and private subnets, configure internet connectivity via an Internet Gateway and NAT Gateway, set up the necessary route tables, and secure the network with security groups and network ACLs. We then conclude by deploying EC2 instances to verify the setup.
-Architectture Diagram
+
+This project Virtual Private Cloud (VPC) with both public and private subnets, configured internet connectivity via an Internet Gateway and NAT Gateway, set up the necessary route tables, and secure the network with security groups and network ACLs. Conclude by deploying EC2 instances to verify the setup.
+
+
+Architecture Diagram
 ![Screenshot (1051)](https://github.com/user-attachments/assets/b0b5f483-d691-4ba7-b718-0f937cf42995)
 
 
@@ -47,7 +52,8 @@ Allows outbound traffic.
 
 Private Subnet NACL
 Allowed inbound traffic from the public subnet. 
-Allowed outbound traffic to the public subnet and internet.
+Allowed outbound traffic to the public subnet and internet. 
+
 
 8. Deploy Instances EC2
    Public Instance: Deployed in PublicSubnet, accessible via SSH.

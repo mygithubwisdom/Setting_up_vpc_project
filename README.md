@@ -64,7 +64,7 @@ This project Virtual Private Cloud (VPC) with both public and private subnets, c
    Public Instance: Deployed in PublicSubnet, accessible via SSH.  
    Private Instance: Deployed in PrivateSubnet, can access the internet through NAT.
 
-# MY AWS VPC Deployment Guide ad Screeshots
+# AWS VPC Deployment Guide and Screeshots
 
    I have Designed and set up a Virtual Private Cloud (VPC) with both public and private subnets implementing routing , security groups and network access control lists (NACLs) to ensure proper communication and security within the VPC.
 
